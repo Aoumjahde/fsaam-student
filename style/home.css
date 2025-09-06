@@ -212,3 +212,12 @@ header {
 .semester p {
     font-size: 0.85rem;
 }
+
+.courses {
+    margin-top: 10rem;
+}
+
+.courses_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
