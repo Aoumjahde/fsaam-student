@@ -104,9 +104,9 @@ nav {
 
 }
 
-.window-scrollll {
-    background-color: #ffc107;
-    box-shadow: 0  1rem 2rem #ffc107;
+.window-scroll {
+    background: var(--color-dark-blue);
+    box-shadow: 0  1rem 2rem var(--color-dark-deep);
 }
 
 .nav_container {
