@@ -89,12 +89,13 @@ a{
 }
 
 .btn-primary {
-    background-color: var((--color-lgray));
+    /* background-color: var((--color-lgray)); */
+    background-color: red;
     color: var(--color-white);
 }
 
 nav {
-    background-color: var(--color-dark-blue);
+    background-color: transparent;
     width: 100vw;
     height: 3.5rem;
     position: fixed;
@@ -116,15 +117,35 @@ nav button {
 .nav_menu {
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .nav_menu a {
     font-size: 0.9rem;
-    transition: all 400ms ease;
+    transition: var(--transition);
 
 }
 
 .nav_menu a :hover {
     color: var(--color-bright);
+}
+
+header {
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 80vh;
+    margin-bottom: 5rem;
+}
+
+.header_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+    height: 100%;
+}
+
+.header_left p {
+    margin: 1rem 0 2.4rem;
 }
