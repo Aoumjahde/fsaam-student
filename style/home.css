@@ -95,13 +95,18 @@ a{
 }
 
 nav {
-    background-color: transparent;
+    background: transparent;
     width: 100vw;
     height: 3.5rem;
     position: fixed;
     top: 0;
     z-index: 11;
 
+}
+
+.window-scrollll {
+    background-color: #ffc107;
+    box-shadow: 0  1rem 2rem #ffc107;
 }
 
 .nav_container {
