@@ -144,8 +144,66 @@ header {
     align-items: center;
     gap: 4rem;
     height: 100%;
+    
+    
 }
 
 .header_left p {
     margin: 1rem 0 2.4rem;
+}
+
+
+.semesters {
+    background-color: var(--color-dark-blue);
+
+}
+
+.semesters h1 {
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+.semesters h4 {
+    margin-bottom: 3rem;
+}
+
+.semesters_container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* gap: 4rem; */
+}
+.semesters_left {
+    margin: 1rem 0 3rem;
+}
+
+.semesters_right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.semester {
+    background-color: var(--color-deep);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+
+.semester :hover {
+    box-shadow: 3r 1rem 3rem var(--color-lgray);
+    z-index: 1;
+}
+
+.semester_icon {
+    background-color: #065084;
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+    
+}
+
+.semester h3{
+    margin: 2rem 0 1rem;;
+}
+
+.semester p {
+    font-size: 0.85rem;
 }
