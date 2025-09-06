@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --color-deep: #0D2A55;
+    --color-meduim: #007bbf;
+    --color-bright: #ffc107;
+    --color-white: #FFFFFf;
+    --color-lgray: #f5f5f5;
+    --color-dark: #000000;
+
+    --container-width-lg: 76%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
+
+body {
+    font-family: Libertinus;
+    line-height: 1.7;
+    color: var(--color-white);
+    background-color: var(--color-deep);
+}
+
+
+.container {
+    width: var(--color-meduim);
+    margin: 0 auto;
+}
+
+section {
+    padding: 6rem  0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    
+}
+
+h1,h2,h3,h4,h5 {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+a{
+    color: var(--color-white);
+}
