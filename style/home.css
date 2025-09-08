@@ -303,3 +303,12 @@ header {
     margin-bottom: 1.2rem;
 }
 
+.footer_copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-deep);
+}
