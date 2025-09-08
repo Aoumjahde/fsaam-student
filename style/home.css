@@ -189,7 +189,7 @@ header {
     /* gap: 4rem; */
 }
 .semesters_left {
-    margin: 1rem 0 3rem;
+    margin: 1rem 0 2rem;
 }
 
 .semesters_right {
@@ -229,7 +229,7 @@ header {
 }
 
 .majors {
-    margin-top: 10rem;
+    margin-top: 1rem;
 }
 
 .majors_container {
@@ -243,5 +243,45 @@ header {
     border: 1px solid transparen;
 }
 .major_info  {
+    padding: 1rem;
+}
+
+.fags {
+    background: var(--color-dark);
+    box-shadow: inset 0 0 3rem black;
+}
+
+.fags_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.fag {
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background: var(--color-dark-blue); 
+    cursor: pointer;
+}
+
+.fag h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.fag_icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.fag p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.fag.open p {
+    display: block;
 }
