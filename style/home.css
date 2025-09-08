@@ -8,6 +8,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Libertinus;
+    
 }
 
 
@@ -47,7 +49,7 @@ section {
 
 section h2 {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -60,6 +62,7 @@ h1 {
 }
 h2 {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 h3{
@@ -103,6 +106,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 11;
+    font-weight: bold;
 
 }
 
@@ -116,7 +120,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 3rem;
+    margin-right: 2.5rem;
 }
 nav button {
     display: none;
@@ -163,7 +167,11 @@ header {
 
 
 .semesters {
-    background-color: var(--color-dark-blue);
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 
 }
 
@@ -188,10 +196,13 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
+    align-items: center;
+    text-align: center;
+
 }
 
 .semester {
-    background-color: var(--color-deep);
+    background-color: var(--color-dark-blue);
     padding: 2rem;
     border-radius: 1.5rem;
     transition: var(--transition);
@@ -203,7 +214,7 @@ header {
 }
 
 .semester_icon {
-    background-color: #065084;
+    background-color: var(--color-deep);
     padding: 0.7rem;
     border-radius: 0.9rem;
     
