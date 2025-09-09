@@ -19,3 +19,21 @@ fags.forEach(faq =>{
         };
     })
 })
+
+
+const menu = document.querySelector(".nav_menu")
+const menuBtn = document.querySelector("#bars-btn")
+const closeBtn = document.querySelector("#close-btn")
+
+menuBtn.addEventListener('click', () => {
+    menu.style.display = "flex";
+    closeBtn.style.display = "inline-block";
+    menuBtn.style.display = "none";
+})
+
+closeBtn.addEventListener('click', () =>{
+    menu.style.display = "none";
+    menuBtn.style.display = "inline-block";
+    closeBtn.style.display = "none";
+
+})

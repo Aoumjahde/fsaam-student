@@ -332,5 +332,49 @@ header {
         font-size: 1.2rem;
     }
     
-    
+    nav button{
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        color: var(--color-white);
+    }
+
+    nav button:hover {
+        /* background: var(--color-meduim); */
+        box-shadow: 1rem 0 10rem 3rem #FFFFFf;
+
+    }
+
+    nav button#close-btn {
+        display: none;
+    }
+    .nav_menu {
+        position: fixed;
+        top: 5rem;
+        right: 5%;
+        height: fit-content;
+        flex-direction: column;
+        width: 18rem;
+        gap: 0;
+        display: none;
+    }
+
+    .nav_menu li {
+        width: 100%;
+        height: 5.8rem;
+    }
+
+    .nav_menu li a {
+        background: var(--color-meduim);
+        box-shadow: -4rem 6rem 10rem var(--color-dark-blue);
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+    }
+
+    .nav_menu li a:hover {
+        background: var(--color-lgray);
+        color: #065084;
+    }
 }
