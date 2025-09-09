@@ -378,22 +378,4 @@ header {
         color: #065084;
     }
 
-
-    .majors_container {
-        grid-template-columns: 1fr;
-        gap: 0.1rem;
-        padding-bottom: 0;
-    }
-
-    .fags_container{
-        grid-template-columns: 1fr;
-    }
-
-
-@media screen and (max-width: 600px) {
-    body{
-        background: red;
-    }
-    
-}
 }
