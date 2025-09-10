@@ -459,10 +459,15 @@ header {
 .the_semester{
     background-color: var(--color-dark-blue);
     padding: 2rem;
+    margin: 1rem;
     border-radius: 0.5rem;
     transition: var(--transition);
+}
 
-    
+
+
+.the_semester h2 {
+    margin-bottom: 1rem;
 }
 
 .the_semester :hover {
@@ -474,18 +479,18 @@ header {
     color: var(--color-meduim);
     background-color: white;
     font-size: 1rem;
+
     border-radius: 0.6rem;
     cursor: pointer;
     text-decoration: none;
-    padding: 0.3rem;
+    padding: 0.6rem;
+    margin: 3rem;
 }
 
-.fie-btn {
-    color: var(--color-meduim);
-    background-color: white;
-    font-size: 1rem;
-    border-radius: 0.6rem;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 0.3rem;
+
+.semester_of_icon {
+    margin-bottom: 1.5rem;
+    background-color: var(--color-deep);
+    padding: 0.7rem;
+    border-radius: 0.9rem;
 }
